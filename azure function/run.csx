@@ -35,7 +35,7 @@ public static async Task<IActionResult> Run(HttpRequest req, ILogger log)
 
     CultureInfo enUSFormat = new CultureInfo("en-US");
 
-    DateTime dateOperationDate = DateTime.Now; 
+    DateTime dateOperationDate = DateTime.UtcNow; 
     if (string.IsNullOrEmpty(operationDate) == false)
     {
         if (operationDate.Length >= 10)
