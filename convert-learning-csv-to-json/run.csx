@@ -1,7 +1,7 @@
-//#r "Microsoft.WindowsAzure.Storage"
-//#r "Microsoft.VisualBasic"
-//#r "System.Data"
-//#r "D:\home\site\wwwroot\HttpTriggerCSharp2\bin\Newtonsoft.Json.dll"
+#r "Microsoft.WindowsAzure.Storage"
+#r "Microsoft.VisualBasic"
+#r "System.Data"
+#r "D:\home\site\wwwroot\convert-learning-csv-to-json\bin\Newtonsoft.Json.dll"
 
 using System;
 using System.Net;
