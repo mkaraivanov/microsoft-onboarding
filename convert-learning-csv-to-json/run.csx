@@ -1,6 +1,6 @@
-#r "Microsoft.WindowsAzure.Storage"
-#r "Microsoft.VisualBasic"
-#r "System.Data"
+//#r "Microsoft.WindowsAzure.Storage"
+//#r "Microsoft.VisualBasic"
+//#r "System.Data"
 //#r "D:\home\site\wwwroot\HttpTriggerCSharp2\bin\Newtonsoft.Json.dll"
 
 using System;
@@ -17,8 +17,6 @@ using Microsoft.Azure;
 using Microsoft.WindowsAzure.Storage.Blob;
 using Microsoft.VisualBasic.FileIO;
 using Newtonsoft.Json;
-
-
 
 public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceWriter log)
 {
