@@ -1,7 +1,7 @@
 #r "Microsoft.WindowsAzure.Storage"
 #r "System.Data"
 #r "Newtonsoft.Json"
-#r "D:\home\site\wwwroot\HttpTriggerCSharp3\bin\CsvHelper.dll"
+#r "D:\home\site\wwwroot\convert-learning-csv-to-json\bin\CsvHelper.dll"
 
 using System.Net;
 using Microsoft.AspNetCore.Mvc;
