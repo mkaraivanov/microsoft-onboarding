@@ -89,8 +89,8 @@ public static async Task<IActionResult> Run(HttpRequest req, ILogger log)
         csv.Configuration.PrepareHeaderForMatch = header => header.Trim().Replace(" ", string.Empty).Replace("/", string.Empty).ToLower();
         csv.Configuration.Delimiter = ",";
         csv.Configuration.IgnoreBlankLines = true;
-        csv.Configuration.IgnoreQuotes = false;
-        csv.Configuration.Quote = '"';
+        //csv.Configuration.IgnoreQuotes = false;
+        //csv.Configuration.Quote = '"';
         csv.Configuration.Comment = '#';
         csv.Configuration.MissingFieldFound = null;
 
